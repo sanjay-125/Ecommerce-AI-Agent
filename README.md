@@ -67,33 +67,28 @@ This will download `deepseek-coder-6.7b-instruct.Q4_K_M.gguf` into the `models/`
 python load_data_to_sqlite.py
 ```
 
-### 5. Start the API
+### 5. Launch the Streamlit App
 
 ```bash
-python app.py
+python -m streamlit run app.py
 ```
 
-Use `http://127.0.0.1:5000/ask` to send queries to the agent.
+Visit `http://localhost:8501` to access the web interface.
 
 ---
 
-## 📌 API Usage
+## 💬 Example Questions (Try on the Webpage)
 
-Send a POST request to:
+✅ What is my total sales?
 
-```http
-POST /ask
-Content-Type: application/json
+📈 Calculate the RoAS (Return on Ad Spend)
 
-{
-  "question": "What is the RoAS for item 123?"
-}
-```
+💸 Which product had the highest CPC (Cost Per Click)?
 
 ---
 ## 📹 Demo
 
-Watch this [demo video](https://drive.google.com/file/d/your-demo-video-link/view) where the API answers:
+Watch this [demo video]([https://drive.google.com/file/d/your-demo-video-link/view](https://drive.google.com/file/d/167Y5xcD1GyPZBshVO1ZrZUVJapxr5HpA/view?usp=drivesdk)) where the API answers:
 
 - What is my total sales?
 - Calculate the RoAS (Return on Ad Spend)
