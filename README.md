@@ -91,6 +91,15 @@ Content-Type: application/json
 ```
 
 ---
+## 📹 Demo
+
+Watch this [demo video](https://drive.google.com/file/d/your-demo-video-link/view) where the API answers:
+
+- What is my total sales?
+- Calculate the RoAS (Return on Ad Spend)
+- Which product had the highest CPC (Cost Per Click)?
+
+The recording shows the API call and terminal output in real-time.
 
 ## 📊 Data Sources
 
