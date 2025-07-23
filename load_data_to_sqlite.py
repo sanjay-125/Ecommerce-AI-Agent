@@ -2,9 +2,9 @@ import pandas as pd
 import sqlite3
 
 # Load Excel files
-ad_sales = pd.read_excel("C:/Users/sanja/Desktop/Ai/Product-Level Ad Sales and Metrics (mapped).xlsx")
-total_sales = pd.read_excel("C:/Users/sanja/Desktop/Ai/Product-Level Total Sales and Metrics (mapped).xlsx")
-eligibility = pd.read_excel("C:/Users/sanja/Desktop/Ai/Product-Level Eligibility Table (mapped).xlsx")
+ad_sales = pd.read_excel("C:/Users/sanja/Desktop/Ai/Dataset/Product-Level Ad Sales and Metrics (mapped).xlsx")
+total_sales = pd.read_excel("C:/Users/sanja/Desktop/Ai/Dataset/Product-Level Total Sales and Metrics (mapped).xlsx")
+eligibility = pd.read_excel("C:/Users/sanja/Desktop/Ai/Dataset/Product-Level Eligibility Table (mapped).xlsx")
 
 # Connect to SQLite DB
 conn = sqlite3.connect("C:/Users/sanja/Desktop/Ai/ecommerce.db")
