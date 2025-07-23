@@ -88,7 +88,7 @@ Visit `http://localhost:8501` to access the web interface.
 ---
 ## 📹 Demo
 
-Watch this [demo video]([https://drive.google.com/file/d/your-demo-video-link/view](https://drive.google.com/file/d/167Y5xcD1GyPZBshVO1ZrZUVJapxr5HpA/view?usp=drivesdk)) where the API answers:
+Watch this [demo video]([https://drive.google.com/file/d/167Y5xcD1GyPZBshVO1ZrZUVJapxr5HpA/view?usp=drivesdk]) where the API answers:
 
 - What is my total sales?
 - Calculate the RoAS (Return on Ad Spend)
